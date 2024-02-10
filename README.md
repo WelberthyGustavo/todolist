@@ -14,7 +14,7 @@ This RESTful API implements a simple task management system, allowing you to add
 
 ## Technologies
 
-- **Backend:** Express.js, Node.js
+- **Backend:** Express.js, Node.js, Postgres
 - **Database:** (Optional) Use a database of your choice, such as MongoDB, PostgreSQL, or MySQL, to store the tasks.
 
 ## Installation
