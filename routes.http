@@ -1,0 +1,53 @@
+POST http://localhost:3000/newtodo
+Content-Type: application/json
+
+{
+    "todoText": "To do a new Website for the company",
+    "fyi": "to finish it fast",
+    "day": "2024-02-03", 
+    "time": "02:34:01",
+    "finished": "true"
+}
+
+###
+
+POST http://localhost:3000/newtodo
+Content-Type: application/json
+
+{
+    "todoText": "To do homework of Math",
+    "fyi": "to finish today",
+    "day": "2024-02-03", 
+    "time": "02:34:01",
+    "finished": "true"
+}
+
+###
+
+GET http://localhost:3000/?search=Website
+
+###
+
+
+GET http://localhost:3000/
+
+###
+
+PUT http://localhost:3000/da15bb4a-5b32-4933-ab76-b5e1c8436ee2
+Content-Type: application/json
+
+{
+    "todoText": "To do homework of Music",
+    "fyi": "to finish today",
+    "day": "2024-02-03", 
+    "time": "02:34:01",
+    "finished": "true"
+}
+
+###
+
+DELETE  http://localhost:3000/da15bb4a-5b32-4933-ab76-b5e1c8436ee2
+
+
+
+
