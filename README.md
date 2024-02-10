@@ -21,7 +21,7 @@ This RESTful API implements a simple task management system, allowing you to add
 
 1. Clone the repository to your local machine.
 2. Install the dependencies with the command `npm install`.
-3. Start the server with the command `npm start`.
+3. Start the server with the command `npm run dev`.
 
 ## API Usage
 
